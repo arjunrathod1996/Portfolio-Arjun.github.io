@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/759940ad25.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- --------------------------------------------------- -->
+    <div id = "header">
+<!-- --------------------------------------------------- -->
+        <div class = "container">
+            <nav>
+                <p class = "a">Arjun.</p>
+                <ul id ="sidemenu">
+                    <li><a href="#header">Home</a></li>   
+                    <li><a href="#about">About</a></li>   
+                    <li><a href="#skills">Skills</a></li>   
+                    <li><a href="#portfolio">Portfolio</a></li>   
+                    <li><a href="#contact">Contact</a></li>   
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars " onclick="openmenu()"></i>
+            </nav>
+        </div>
+<!-- --------------------------------------------------- -->
+        <div class = "header-text">
+
+            <h1>Hi, I'am <span class ="sp">Arjun</span> From Bengaluru</h1>
+
+        </div>
+<!-- --------------------------------------------------- -->
+    </div>
+<!-- --------------------------------------------------- -->
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- About -->
+<!-- --------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/phoneba.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class = "sub-title" >About Me</h1>
+        
+                    <p>A creative and detailed individual has the capacity to develop an effective and efficient solution with no
+                        tolerance for errors and possess a positive attitude towards individual goals and an organizational goal.</p>
+
+
+                    <div class="tab-titles">
+                        <p class = "tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class = "tab-links" onclick="opentab('education')">Education</p>
+                        <p class = "tab-links" onclick="opentab('education-project')">Education Project</p>
+                        <p class = "tab-links" onclick="opentab('personal-project')">Personal Project</p>
+                    </div>
+
+                    
+                    <div class = "tab-content active-tab" id = "skills">
+                        <ul>
+                            <li><i class="fa-brands fa-html5"></i><br>HTML5</li>
+                            <li><i class="fa-brands fa-css3"></i><br>CSS3</li>
+                            <li><i class="fa-brands fa-js"></i><br>JAVASCRIPT</li>
+                            <li><i class="fa-brands fa-java"></i><br>JAVA</li>
+                            <li><i class="fa-solid fa-database"></i><br>MYSQL/ORACLE</li>
+                            <li><i class="fa-brands fa-python"></i><br>PYTHON</li>
+                            <li><i class="fa-solid fa-file-excel"></i><br>EXCEL</li>
+                        </ul>
+                    </div>
+
+
+                    <div class ="tab-content" id="education">
+                        <ul>
+                            <li><span>2018 - 2020</span><br>M.Tech in Structural Engineering at Visvesvaraya Technological University - Belagavi, India (2020)</li>
+                            <li><span>2014 - 2018</span><br>B.Tech in Civil Engineering at Ramaiah University Of Applied Sciences - Bangalore, India (2018)</li>
+                            <li><span>2012 - 2014</span><br> PUC at Shree Guru Nagalingeshwara - Gulbaraga, India (2014)</li>
+                        </ul>
+                    </div>
+
+
+                    <div class = "tab-content" id="education-project">
+                        <ul>
+                            <li><span>2020</span><br>Comparative Data Analysis and Experimental Study on Modes of Fracture of Plain and RC Beams
+                                Determine the Stress Intensity Factor, Fracture Energy, various capacities in each dif erent position of Notch Beams.</li>
+                            <li><span>2018</span><br>Application of Artificial Intelligence in Pile Foundation
+                                Analyzed and created a model using MATLAB to determine the Load Bearing Capacity of Soil of Pile Foundation</li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class = "tab-content" id="personal-project">
+                        <ul>
+                            <li><span>2022</span><br>Studied the growth of Xiaomi corporation in the Indian market by doing exploratory data   analysis using Excel, found a
+                                correlation between dependent variables & independent variables and then built & validated the model to Predict prices</li>
+                            <li><span>2022</span><br>Performed EDA, analyzed and explored data, found a correlation between dependent variables & independent variables<br>
+                            Built a predictive model using linear regression method to predict the price of the Ipad depending on the four
+                            important features which are screen size, storage, connectivity and generation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+        <!-- About -->
+<!-- --------------------------------------------------- -->
+
+
+<!-- Portfolio -->
+<div id = "portfolio">
+    <div class = "container">
+            <h1 class = "sub-title">Front-End Web development projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Ecommerce Website</h3>
+                        <p>Responsive E-Commerce website by using HTML and CSS</p>
+                        <a href="https://arjunrathod1996.github.io/Ecommerce-website.github.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Netflix Website Clone</h3>
+                        <p>Responsive Netflix clone website By using HTML and CSS</p>
+                        <a href="https://arjunrathod1996.github.io/Netflix-clone-webdesign.github.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Meta Website Clone</h3>
+                        <p>Responsive Meta clone website By using HTML and CSS with Dark Theme</p>
+                        <a href="https://arjunrathod1996.github.io/Facebook-Clone-Website.github.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div> 
+
+
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Restaurant Website</h3>
+                        <p>Responsive Restaurant website By using HTML and CSS with Animation</p>
+                        <a href="https://arjunrathod1996.github.io/Restaurant-website.github.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div> 
+            </div>
+    </div>
+</div>
+
+
+
+<div id = "portfolio">
+    <div class = "container">
+            <h1 class = "sub-title">Front-End and Back-End Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Employee Management System</h3>
+                        <p>Employee Management System Project By using SpringMVC, Hibernate and BootStrap (Spring Tool Suite)</p>
+                        <a href="https://github.com/arjunrathod1996/Employee-System-CRUD-springmvc-and-hibernate"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>User Login Authentication Module Java Web Project </h3>
+                        <p>Login and Logout Authentication Module by using Servlet, Jsp, MySQL and after logout clear all cache from the browser (Java Eclipse)</p>
+                        <a href="https://github.com/arjunrathod1996/Login-Logout-Servlet-Jsp-Mysql"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>TODO Web Application Project</h3>
+                        <p>ToDo Web Application Project by using Servlet, Jsp, Jstl , MuSQL and BootStrap (Java Eclipse) </p>
+                        <a href="https://arjunrathod1996.github.io/Facebook-Clone-Website.github.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div> 
+            </div>
+            <a href="#" class = "btn">See more</a>
+    </div>
+</div>
+
+
+
+<!-- Contact -->
+
+<div id="contact">
+    <div class="container">
+        <div class = "row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> arjundargurathod@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 8095075540</p>
+                <div class = "social-icons">
+                    <a href="https://github.com/arjunrathod1996"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/arjundr/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+                <a href="images/my-cv.pdf" download="" class="btn btn2">Download CV</a>
+
+
+            </div>
+
+            <div class="contact-right">
+                <form name = "submit-to-google-sheet">
+                    <input type = "text" name = "Name" placeholder="Your Name" required>
+                    <input type="email" name = "Email" placeholder="Your Email" required>
+                    <textarea name = "Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class ="btn btn2">Submit</button>
+                </form>
+                <span id = "msg"></span>
+            </div>
+        </div>
+    </div>
+
+<div class="copyright">
+    <p> copyright <i class="fa-solid fa-copyright"></i> Arjun. <i class="fa-solid fa-heart"></i></p>
+</div>
+</div>
+
+
+<!-- Script -->
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-content");
+
+    function opentab(tabname){
+
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+</script>
+
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbwqeZS7X3DDz-sQnJVXw2_KqR_jhR_VgwejLtSSovJwqATOsaLGuwwX-V0PwZ5RTNNpQA/exec>'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
